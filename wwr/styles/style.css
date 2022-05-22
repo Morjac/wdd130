@@ -11,8 +11,8 @@
 }
 
 
-#card img{
-    border: 10px solid black;
+.card-img{
+    border: 10px solid #1f1f1f;
 }
 
 #logo_link{
@@ -56,6 +56,10 @@ header{
     font-family: var(--heading-font);
     font-size: 2em;
     margin-top: 10px;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 body {
