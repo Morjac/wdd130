@@ -148,7 +148,7 @@ body {
     padding: 0;
 }
 
-.book, .join{
+.book, .join, .maps1, .maps2, .maps3{
     background-color:#b69b68;
     color: #1f1f1f;
     text-decoration: none;
@@ -158,9 +158,10 @@ body {
     border-radius: 5px;
 }
 
-.book:hover, .join:hover{
+.book:hover, .join:hover, .maps1:hover, .maps2:hover, .maps3:hover{
     background-color: #fbfaf8;
     color: #1f1f1f;
+    
 }
 
 .rivers-card, .camping-card, .rapids-card{
@@ -233,6 +234,52 @@ footer a:hover{
 
 footer, .social img{
     padding-top: 15px;
+}
+
+/*at this point is the additional code for rivers page */
+
+#rivers1, #rivers2, #rivers3{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+
+}
+
+#rivers1-box, #rivers2-box, #rivers3-box {
+    grid-column: 1/6;
+    grid-row: 1/6;
+    z-index: -1;
+    background: black;
+    overflow: hidden;
+    
+}
+
+
+#rivers1-img, #rivers2-img, #rivers3-img{
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+#rivers1-msg, #rivers2-msg, #rivers3-msg{
+    grid-column: 2/5;
+    grid-row: 2/5;
+    
+}
+
+#rivers1-msg h1, #rivers2-msg h1, #rivers3-msg h1{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#rivers1-msg h3, #rivers2-msg h3, #rivers3-msg h3{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#rivers1-msg h1, #rivers1-msg h3, #rivers2-msg h1, #rivers2-msg h3, #rivers3-msg h1, #rivers3-msg h3{
+    text-align: center;
+    
 }
 
 /*This is added to have it responsive to smaller screens */
