@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Qwigley|Barlow+Condensed');
+
+:root {
+    --heading-font: "Qwigley", cursive;
+    --paragraph-font: 'Barlow Condensed', sans-serif;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 1em;
+}
+
+header{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+}
+
+    #jm_foto_logo{
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+        filter: brightness(100%);
+        filter: contrast(100%);
+        filter: drop-shadow(5px 5px 5px black);
+        
+    }
+
+    nav{
+        text-align: center;
+        grid-template-columns: auto;
+        grid-column: 6/9;
+        justify-content: space-around;
+        justify-self: center;
+        align-self: center;
+        
+    }
+
+    nav a{
+        color: #e5e2db;
+        text-decoration: none;
+        padding: 35px;
+        filter: brightness(100%);
+        filter: contrast(100%);
+        filter: drop-shadow(5px 5px 5px black);
+    }
+
+    nav a:hover{
+        background-color: #fbfaf8;
+        color: #1f1f1f;
+    }
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -200px; 
+}
+
+    #hero-box {
+        grid-column: 1/4;
+        grid-row: 1/3;
+        z-index: -1;
+    }
+
+
+    #hero-img{
+        margin-top: -150px;
+        width: 100%;
+        filter: brightness(100%);
+        filter: contrast(100%);
+        filter: drop-shadow(5px 5px 5px black);
+    }
+
+    #hero-msg{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 100px;
+    }
+
+    #hero-msg h1{
+        color:white;
+        filter: brightness(100%);
+        filter: contrast(100%);
+        filter: drop-shadow(5px 5px 5px black);
+        
+    }
+
+
+body {
+    background-color: ##ffd48;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+
+.msg{
+    background-color: #7f7979;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg h2{
+    color: #1f1f1f;
+    font-family: var(--heading-font);
+}
+
+.msg p{
+    color: #1f1f1f;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+
+
+
+#home-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+
+#home-text-box{
+    grid-column: 1/2;
+}
+
+
+#home-img{
+    width: 75%;
+    justify-self: center;
+    align-self: center;
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+#home-img-box{
+    grid-column: 2/3;
+}
+
+#content-boxes{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#content-box-1, #content-box-2, #content-box-3{
+    margin: 10px;
+    background-color:#dee9e5 ;
+    height:90%;
+    align-self: center;
+    justify-self: center;
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.icon{
+    padding-top: 10px;
+}
+
+h4{
+    color: #1f1f1f;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    background-color: #dee9e5;
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: drop-shadow(5px 5px 5px black);
+
+}
+
+#jm_foto_logo_footer{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+}
+
+footer h3{
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+}
+
+footer p{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    height: 1rem;
+}
+
+.social{
+    grid-column: 5/8;
+    grid-row: 2/4;
+    
+}
+
+#facebook, #twitter, #instagram {
+    margin: 3rem;
+}
+
