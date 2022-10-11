@@ -1,6 +1,5 @@
 body {
     background-color: beige;
-    text-align: center;
 }
 
 #active {
@@ -8,27 +7,35 @@ body {
     color: steelblue;
 }
 
-nav{
-    background-color: steelblue;
-    padding: 10px;
-}
-
 a{
     color: white;
     margin: 40px;
+    font-size: 1.5em;
+}
+
+a:hover{
+    background-color: white;
+    color: steelblue;
 }
 
 h1{
     color: steelblue;
+    text-align: center;
 }
 
 img{
-    width: 800px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
     border: 4px solid steelblue
+    
 }
 
 p{
     padding: 10px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
 
 .main-para {
@@ -37,7 +44,17 @@ p{
 }
 
 footer{
+    width: 100%;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+nav, footer{
+    text-align: center;
     background-color: steelblue;
     color: white;
-    width: 100%;
+    padding: 10px;
 }

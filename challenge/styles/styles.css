@@ -1,0 +1,40 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+
+nav{
+    color: white;
+}
+
+.the-gospel{
+    font-size: 20px;
+    
+}
+
+nav h1{
+    margin: 30px auto;
+    font-size: 50px;
+
+}
+
+nav h1:hover{
+    color: black;
+}
+
+main h1{
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+}
+
+footer{
+    width: 40%;
+    margin: 0 auto;
+}
+
+img{
+    width: 30%;
+}
+
+
