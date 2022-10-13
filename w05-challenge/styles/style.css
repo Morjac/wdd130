@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    max-width: 1600px;
+    background-color: grey;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+#icon {
+    text-align: center;
+    width: 25%;
+    padding: 25px;
+}

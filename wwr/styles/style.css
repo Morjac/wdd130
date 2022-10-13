@@ -1,27 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+/* {
+    border: 2px solid blue;
+} */
+
+:root{
+    --heading-font: "Rock Salt";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+  }
+
+p, a{
+    font-family: var(--paragraph-font);
+}
+
+h2{
+    margin: 0;
+}
+
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    
 }
 
 body{
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
 
 header {
     background-color:#dda15e;
 }
 
+.home-title{
+    font-family: 'Rock Salt', Courier, monospace;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .logo{
     width: 80px;
 }
 
+.logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
+
+nav{
+    text-align: center;
+}
+
 nav a{
     text-align: center;
     color: #453c2a;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -41,6 +84,14 @@ h4{
     background-color: #a7c396;
     color: #453c2a;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #453c2a;
 }
 
 .book:hover, .join:hover{
@@ -61,25 +112,44 @@ h4{
     background-color: #dda15e
 }
 
+.mountains{
+    margin: 50px 0;
+}
+
 .msg{
     background-color: #dda15e;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: #453c2a;
+    font-family: "Rock Salt";
 }
 
 .msg p{
     color: #453c2a;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0
+}
+
 footer{
     background-color: #a7c396;
     color: #453c2a;
+    padding: 25px 30px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -101,7 +171,12 @@ footer a:hover{
     color:  #a7c396;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 #background {
     height: 725px;
     background-color: #453c2a;
+    margin: 50px 0;
 }
