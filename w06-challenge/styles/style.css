@@ -1,0 +1,16 @@
+*{
+    border: 2px solid blue;
+}
+
+.left-side {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(5 1fr);
+    background: gray;
+}
+
+.left-side{
+    grid-column: 1/2;
+    
+}
