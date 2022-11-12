@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    max-width: 400px;
+    width: auto;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+}
+
+main h3{
+    color: #227C9D;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color: #227C9D;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    
+}
+
+footer h2, footer h3{
+    margin: 5px;
+}
+
+p{
+    color:gray;
+}
+
+.read{
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.views{
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.comments{
+    grid-column: 3/4;
+    text-align: center;
+}
