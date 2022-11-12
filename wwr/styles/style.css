@@ -279,14 +279,8 @@ footer, .social img{
 #rivers1-msg, #rivers3-msg{
     grid-column: 2/3;
     text-align: center;
-    font-size: medium;
+    font-size: .7em;
     padding: 5px;
-}
-
-#rivers1-msg{
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: -10px;
 }
 
 #rivers3-msg{
